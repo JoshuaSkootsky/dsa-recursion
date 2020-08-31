@@ -30,3 +30,9 @@ console.log(
   splitter('02***20***2020', s2).join() ===
     ['02', '', '', '20', '', '', '2020'].join()
 );
+
+console.log(splitter(''), splitter('').join() === [].join());
+
+const weird = 'dafasdfadfsadfafaf';
+
+console.log(splitter(weird), splitter(weird).join() === [weird].join());
