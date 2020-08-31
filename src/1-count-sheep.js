@@ -12,4 +12,4 @@ function sheep(n) {
     }
 }
 
-sheep(3);
+module.exports = sheep;
